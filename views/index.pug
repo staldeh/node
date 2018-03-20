@@ -1,9 +1,9 @@
 extends layout
 
 block content
-  +nav("Project name", "dropdown_menu","inverse")
+  +nav("Project Uggla", "dropdown_menu","inverse")
     +nav_item( "index.html", "active" ) Home
-      +nav_item( "link" ) About
+      +nav_item( "about.html" ) About
       +nav_item( "contact.html" ) Contact
       +nav_item_dropdown( "#" )( label="Dropdown" )
         +nav_item( "#" ) Action
@@ -38,13 +38,3 @@ block content
     +listItem Dapibus ac facilisis in
     +listItem Morbi leo risus
     +listItem Dapibus ac facilisis in
-  +listGroup("links")
-    +listItem("link1.html", "active")
-      +listHeading List group item heading
-      +listText Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-    +listItem("link2.html")
-      +listHeading List group item heading
-      +listText Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-    +listItem("link3.html")
-      +listHeading List group item heading
-      +listText Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
